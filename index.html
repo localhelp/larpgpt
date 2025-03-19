@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-<!-- 06224c357236f64d2dd129764591ad19f0c718de -->
-<!--  -->
-<html>
-	<head>
-<title>LARPGPT - The go-to Discord AI Bot for military information</title>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A minimalistic military-themed page.">
+    <title>LARPGPT</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to External CSS -->
 </head>
-<body>
-<header>
-<h1>LARPGPT by ATI x NORTHCO.</h1>
-</header>
-<navbar>
-<a href="https://discord.gg/h5aZeBHK2F">Discord</a>
-</navbar>
+
+<body onload="fadeIn()">
+    <div class="container">
+        <h1>LARPGPT</h1>
+        <p>The no.1 military information AI powered Discord Bot</p>
+        <div class="card">
+            <h2>might be the caggiest bot yet</h2>
+            <p>Made by NORTHCO. x ATI</p>
+        </div>
+        <div class="card">
+            <h2>8126843</h2>
+            <p>the larper that made this website and the bot</p>
+        </div>
+        <div class="card">
+            <h2>Specifics</h2>
+            <p>This bot specifies everything you ask for on military subjects, for examples, ask about the 1st SFOD-D.</p>
+        </div>
+    </div>
+    <script>
+        // Function to fade in the body of the page
+        function fadeIn() {
+            document.body.style.opacity = 0; // Set initial opacity to 0
+            let fadeEffect = setInterval(function () {
+                if (!document.body.style.opacity) {
+                    document.body.style.opacity = 0;
+                }
+                if (document.body.style.opacity < 1) {
+                    document.body.style.opacity = parseFloat(document.body.style.opacity) + 0.1; // Increase opacity
+                } else {
+                    clearInterval(fadeEffect); // Stop the interval once fully visible
+                }
+            }, 100); // Interval of 100ms
+        }
+    </script>
 </body>
+
 </html>
