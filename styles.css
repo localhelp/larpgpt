@@ -3,7 +3,7 @@ body {
     background-color: #2D2D2D; /* Dark background */
     color: #F1F1F1; /* Light text color */
     margin: 0;
-    padding: 0;
+    padding: 20;
     display: flex;
     justify-content: center;
     align-items: center;
