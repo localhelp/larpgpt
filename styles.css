@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 20;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 100vh;
     transition: opacity 0.5s ease; /* Smooth transition for opacity */
 }
